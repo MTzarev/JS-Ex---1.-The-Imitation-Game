@@ -2,7 +2,6 @@ function examPrep(input) {
     let arr = input.slice();
     let message = input.shift();
     let currentLine = input.shift();
- 
     while (currentLine !== 'Decode') {
  
         let tempMessage = '';
